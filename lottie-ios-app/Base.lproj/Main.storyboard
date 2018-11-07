@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-js-4BP" customClass="LOTAnimationView">
-                                <rect key="frame" x="-12.5" y="173.5" width="400" height="320"/>
+                                <rect key="frame" x="27.5" y="173.5" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="hR9-eA-wJ7"/>
+                                    <constraint firstAttribute="width" constant="320" id="hR9-eA-wJ7"/>
                                     <constraint firstAttribute="height" constant="320" id="ito-Lt-goa"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.16752533153878432" green="0.37862100351150596" blue="0.65664657360406098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="tintColor" red="0.058561347332194751" green="0.25903885971264412" blue="0.61938848350253806" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.1004124365482234" green="0.1004124365482234" blue="0.1004124365482234" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ujt-js-4BP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sux-G0-MrI"/>
                             <constraint firstItem="Ujt-js-4BP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fBG-Rn-rZb"/>
