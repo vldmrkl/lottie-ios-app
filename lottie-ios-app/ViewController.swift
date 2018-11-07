@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 	}
 	
 	func playAnimation(){
-		animationView.setAnimation(named: "world_locations")
+		animationView.setAnimation(named: "loading")
 		animationView.loopAnimation = true
 		animationView.play()
 	}

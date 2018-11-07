@@ -12,19 +12,19 @@
 		2D058EB8218E7D9B00CCED8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D058EB6218E7D9B00CCED8F /* Main.storyboard */; };
 		2D058EBA218E7D9C00CCED8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D058EB9218E7D9C00CCED8F /* Assets.xcassets */; };
 		2D058EBD218E7D9C00CCED8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D058EBB218E7D9C00CCED8F /* LaunchScreen.storyboard */; };
-		2D058ECE218E82A400CCED8F /* world_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D058ECD218E82A400CCED8F /* world_locations.json */; };
-		2D058ED0218E87D300CCED8F /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D058ECB218E818500CCED8F /* Lottie.framework */; };
-		2D058ED1218E87D300CCED8F /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D058ECB218E818500CCED8F /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D8D09B32192A29F00391FAC /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D09B22192A29F00391FAC /* loading.json */; };
+		2D8D09B42192A31B00391FAC /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D058ECB218E818500CCED8F /* Lottie.framework */; };
+		2D8D09B52192A31B00391FAC /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D058ECB218E818500CCED8F /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2D058ED2218E87D300CCED8F /* Embed Frameworks */ = {
+		2D8D09B62192A31C00391FAC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2D058ED1218E87D300CCED8F /* Lottie.framework in Embed Frameworks */,
+				2D8D09B52192A31B00391FAC /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		2D058EBC218E7D9C00CCED8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D058EBE218E7D9C00CCED8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D058ECB218E818500CCED8F /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		2D058ECD218E82A400CCED8F /* world_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = world_locations.json; path = ../../../../Desktop/world_locations.json; sourceTree = "<group>"; };
+		2D8D09B22192A29F00391FAC /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loading.json; path = ../../../../Desktop/loading.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D058ED0218E87D300CCED8F /* Lottie.framework in Frameworks */,
+				2D8D09B42192A31B00391FAC /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		2D058EB1218E7D9B00CCED8F /* lottie-ios-app */ = {
 			isa = PBXGroup;
 			children = (
-				2D058ECD218E82A400CCED8F /* world_locations.json */,
+				2D8D09B22192A29F00391FAC /* loading.json */,
 				2D058EB2218E7D9B00CCED8F /* AppDelegate.swift */,
 				2D058EB4218E7D9B00CCED8F /* ViewController.swift */,
 				2D058EB6218E7D9B00CCED8F /* Main.storyboard */,
@@ -105,7 +105,7 @@
 				2D058EAC218E7D9B00CCED8F /* Frameworks */,
 				2D058EAD218E7D9B00CCED8F /* Resources */,
 				2D058ECF218E861000CCED8F /* ShellScript */,
-				2D058ED2218E87D300CCED8F /* Embed Frameworks */,
+				2D8D09B62192A31C00391FAC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +157,7 @@
 				2D058EBD218E7D9C00CCED8F /* LaunchScreen.storyboard in Resources */,
 				2D058EBA218E7D9C00CCED8F /* Assets.xcassets in Resources */,
 				2D058EB8218E7D9B00CCED8F /* Main.storyboard in Resources */,
-				2D058ECE218E82A400CCED8F /* world_locations.json in Resources */,
+				2D8D09B32192A29F00391FAC /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
